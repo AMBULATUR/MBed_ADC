@@ -1,0 +1,10 @@
+{
+    "target_overrides": {
+      "NUCLEO_F103RB": {
+        "target.printf_lib": "minimal-printf",
+        "target.components_add": ["SD"],
+        "platform.minimal-printf-enable-floating-point": false,
+        "platform.stdio-minimal-console-only": true
+      }
+    }
+}
